@@ -121,7 +121,7 @@
 	build_path = /obj/item/gun/syringe/dart
 	category = list("Medical Designs")
 	departmental_flags = DEPARTMENTAL_FLAG_MEDICAL
-*/
+
 /datum/design/plasmarefiller
 	name = "Plasma-Man Jumpsuit Refill"
 	desc = "A refill pack for the auto-extinguisher on Plasma-man suits."
@@ -131,7 +131,7 @@
 	build_path = /obj/item/extinguisher_refill
 	category = list("Medical Designs")
 	departmental_flags = DEPARTMENTAL_FLAG_ALL
-
+*/
 /datum/design/crewpinpointer
 	name = "Crew Pinpointer"
 	desc = "Allows tracking of someone's location if their suit sensors are turned to tracking beacon."
@@ -217,10 +217,10 @@
 	desc = "A plastic pressure bag for IV administration of drugs."
 	id = "chem_pack"
 	build_type = PROTOLATHE
-	departmental_flags = DEPARTMENTAL_FLAG_MEDICAL
 	materials = list(/datum/material/plastic = 1500)
 	build_path = /obj/item/reagent_containers/chem_pack
-	category = list("Medical Designs")
+	category = list("Medical Designs")	
+	departmental_flags = DEPARTMENTAL_FLAG_MEDICAL
 
 /datum/design/cloning_disk
 	name = "Cloning Data Disk"
@@ -230,7 +230,7 @@
 	materials = list(/datum/material/iron = 300, /datum/material/glass = 100, /datum/material/silver=50)
 	build_path = /obj/item/disk/data
 	category = list("Medical Designs")
-	departmental_flags = DEPARTMENTAL_FLAG_MEDICAL | DEPARTMENTAL_FLAG_SCIENCE
+	departmental_flags = DEPARTMENTAL_FLAG_SCIENCE
 
 /datum/design/organbox
 	name = "Empty Organ Box"
@@ -488,7 +488,7 @@
 	materials = list(/datum/material/iron = 600, /datum/material/glass = 600, /datum/material/silver = 600, /datum/material/gold = 600, /datum/material/plasma = 1000, /datum/material/uranium = 1000, /datum/material/diamond = 1000, /datum/material/bluespace = 1000)
 	build_path = /obj/item/organ/eyes/robotic/xray
 	category = list("Misc", "Medical Designs")
-	departmental_flags = DEPARTMENTAL_FLAG_MEDICAL
+	departmental_flags = DEPARTMENTAL_FLAG_SCIENCE
 
 /datum/design/cyberimp_thermals
 	name = "Thermal Eyes"
@@ -499,7 +499,7 @@
 	materials = list(/datum/material/iron = 600, /datum/material/glass = 600, /datum/material/silver = 600, /datum/material/gold = 600, /datum/material/plasma = 1000, /datum/material/diamond = 2000)
 	build_path = /obj/item/organ/eyes/robotic/thermals
 	category = list("Misc", "Medical Designs")
-	departmental_flags = DEPARTMENTAL_FLAG_MEDICAL
+	departmental_flags = DEPARTMENTAL_FLAG_SCIENCE
 
 /datum/design/cyberimp_antidrop
 	name = "Anti-Drop Implant"
@@ -510,7 +510,7 @@
 	materials = list(/datum/material/iron = 600, /datum/material/glass = 600, /datum/material/silver = 400, /datum/material/gold = 400)
 	build_path = /obj/item/organ/cyberimp/brain/anti_drop
 	category = list("Misc", "Medical Designs")
-	departmental_flags = DEPARTMENTAL_FLAG_MEDICAL
+	departmental_flags = DEPARTMENTAL_FLAG_SCIENCE
 
 /datum/design/cyberimp_antistun
 	name = "CNS Rebooter Implant"
@@ -967,7 +967,7 @@
 	construction_time = 15
 	build_path = /obj/machinery/plumbing/acclimator
 	category = list("Misc","Medical Designs")
-	departmental_flags = DEPARTMENTAL_FLAG_MEDICAL | DEPARTMENTAL_FLAG_SCIENCE
+	departmental_flags = DEPARTMENTAL_FLAG_SCIENCE
 
 /datum/design/disposer
 	name = "Plumbing Disposer"
@@ -978,7 +978,7 @@
 	construction_time = 15
 	build_path = /obj/machinery/plumbing/disposer
 	category = list("Misc","Medical Designs")
-	departmental_flags = DEPARTMENTAL_FLAG_MEDICAL | DEPARTMENTAL_FLAG_SCIENCE
+	departmental_flags = DEPARTMENTAL_FLAG_SCIENCE
 
 /datum/design/plumb_filter
 	name = "Plumbing Filter"
@@ -989,7 +989,7 @@
 	construction_time = 15
 	build_path = /obj/machinery/plumbing/filter
 	category = list("Misc","Medical Designs")
-	departmental_flags = DEPARTMENTAL_FLAG_MEDICAL | DEPARTMENTAL_FLAG_SCIENCE
+	departmental_flags = DEPARTMENTAL_FLAG_SCIENCE
 
 /datum/design/plumb_synth
 	name = "Plumbing Synthesizer"
@@ -1000,7 +1000,7 @@
 	construction_time = 15
 	build_path = /obj/machinery/plumbing/synthesizer
 	category = list("Misc","Medical Designs")
-	departmental_flags = DEPARTMENTAL_FLAG_MEDICAL | DEPARTMENTAL_FLAG_SCIENCE
+	departmental_flags = DEPARTMENTAL_FLAG_SCIENCE
 
 /datum/design/plumb_grinder
 	name = "Plumbing-Linked Autogrinder"
@@ -1011,7 +1011,7 @@
 	construction_time = 15
 	build_path = /obj/machinery/plumbing/grinder_chemical
 	category = list("Misc","Medical Designs")
-	departmental_flags = DEPARTMENTAL_FLAG_MEDICAL | DEPARTMENTAL_FLAG_SCIENCE
+	departmental_flags = DEPARTMENTAL_FLAG_SCIENCE
 
 /datum/design/reaction_chamber
 	name = "Plumbing Reaction Chamber"
@@ -1022,7 +1022,7 @@
 	construction_time = 15
 	build_path = /obj/machinery/plumbing/reaction_chamber
 	category = list("Misc","Medical Designs")
-	departmental_flags = DEPARTMENTAL_FLAG_MEDICAL | DEPARTMENTAL_FLAG_SCIENCE
+	departmental_flags = DEPARTMENTAL_FLAG_SCIENCE
 
 /datum/design/duct_print
 	name = "Plumbing Ducts"
@@ -1033,7 +1033,7 @@
 	construction_time = 1
 	build_path = /obj/item/stack/ducts
 	category = list("Misc","Medical Designs")
-	departmental_flags = DEPARTMENTAL_FLAG_MEDICAL | DEPARTMENTAL_FLAG_SCIENCE
+	departmental_flags = DEPARTMENTAL_FLAG_SCIENCE
 
 /datum/design/plumb_splitter
 	name = "Plumbing Chemical Splitter"
@@ -1044,7 +1044,7 @@
 	construction_time = 15
 	build_path = /obj/machinery/plumbing/splitter
 	category = list("Misc","Medical Designs")
-	departmental_flags = DEPARTMENTAL_FLAG_MEDICAL | DEPARTMENTAL_FLAG_SCIENCE
+	departmental_flags = DEPARTMENTAL_FLAG_SCIENCE
 
 /datum/design/pill_press
 	name = "Plumbing Automatic Pill Former"
@@ -1055,7 +1055,7 @@
 	construction_time = 15
 	build_path = /obj/machinery/plumbing/pill_press
 	category = list("Misc","Medical Designs")
-	departmental_flags = DEPARTMENTAL_FLAG_MEDICAL | DEPARTMENTAL_FLAG_SCIENCE
+	departmental_flags = DEPARTMENTAL_FLAG_SCIENCE
 
 /datum/design/plumb_pump
 	name = "Liquid Extraction Pump"
@@ -1066,7 +1066,7 @@
 	construction_time = 15
 	build_path = /obj/machinery/plumbing/liquid_pump
 	category = list("Misc","Medical Designs")
-	departmental_flags = DEPARTMENTAL_FLAG_MEDICAL | DEPARTMENTAL_FLAG_SCIENCE
+	departmental_flags = DEPARTMENTAL_FLAG_SCIENCE
 
 /datum/design/plumb_in
 	name = "Plumbing Input Device"
@@ -1077,7 +1077,7 @@
 	construction_time = 15
 	build_path = /obj/machinery/plumbing/input
 	category = list("Misc","Medical Designs")
-	departmental_flags = DEPARTMENTAL_FLAG_MEDICAL | DEPARTMENTAL_FLAG_SCIENCE
+	departmental_flags = DEPARTMENTAL_FLAG_SCIENCE
 
 /datum/design/plumb_out
 	name = "Plumbing Output Device"
@@ -1088,7 +1088,7 @@
 	construction_time = 15
 	build_path = /obj/machinery/plumbing/output
 	category = list("Misc","Medical Designs")
-	departmental_flags = DEPARTMENTAL_FLAG_MEDICAL | DEPARTMENTAL_FLAG_SCIENCE
+	departmental_flags = DEPARTMENTAL_FLAG_SCIENCE
 
 /datum/design/plumb_tank
 	name = "Plumbed Storage Tank"
@@ -1099,7 +1099,7 @@
 	construction_time = 15
 	build_path = /obj/machinery/plumbing/tank
 	category = list("Misc","Medical Designs")
-	departmental_flags = DEPARTMENTAL_FLAG_MEDICAL | DEPARTMENTAL_FLAG_SCIENCE
+	departmental_flags = DEPARTMENTAL_FLAG_SCIENCE
 
 /datum/design/plumb_rcd
 	name = "Plumbed Autoconstruction Device"
@@ -1110,7 +1110,7 @@
 	construction_time = 150
 	build_path = /obj/item/construction/plumbing
 	category = list("Misc","Medical Designs")
-	departmental_flags = DEPARTMENTAL_FLAG_MEDICAL | DEPARTMENTAL_FLAG_SCIENCE
+	departmental_flags = DEPARTMENTAL_FLAG_SCIENCE
 
 /datum/design/autosurgeon
 	name = "Autosurgeon"
@@ -1121,5 +1121,4 @@
 	construction_time = 100
 	build_path = /obj/item/autosurgeon
 	category = list("Misc","Medical Designs")
-	departmental_flags = DEPARTMENTAL_FLAG_MEDICAL | DEPARTMENTAL_FLAG_SCIENCE
-
+	departmental_flags = DEPARTMENTAL_FLAG_SCIENCE

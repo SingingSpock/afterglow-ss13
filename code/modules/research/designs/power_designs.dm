@@ -55,7 +55,7 @@
 	construction_time=100
 	build_path = /obj/item/stock_parts/cell/bluespace/empty
 	category = list("Misc","Power Designs")
-	departmental_flags = DEPARTMENTAL_FLAG_SCIENCE | DEPARTMENTAL_FLAG_ENGINEERING
+	departmental_flags = DEPARTMENTAL_FLAG_SCIENCE
 
 /datum/design/inducer
 	name = "Inducer"

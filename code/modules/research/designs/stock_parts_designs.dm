@@ -20,7 +20,7 @@
 	materials = list(/datum/material/iron = 15000, /datum/material/glass = 5000, /datum/material/silver = 2500) //hardcore
 	build_path = /obj/item/storage/part_replacer/bluespace
 	category = list("Stock Parts")
-	departmental_flags = DEPARTMENTAL_FLAG_ENGINEERING | DEPARTMENTAL_FLAG_SCIENCE
+	departmental_flags = DEPARTMENTAL_FLAG_SCIENCE
 
 //Capacitors
 /datum/design/basic_capacitor
@@ -65,7 +65,7 @@
 	build_path = /obj/item/stock_parts/capacitor/quadratic
 	category = list("Stock Parts")
 	lathe_time_factor = 0.2
-	departmental_flags = DEPARTMENTAL_FLAG_ENGINEERING | DEPARTMENTAL_FLAG_SCIENCE
+	departmental_flags = DEPARTMENTAL_FLAG_SCIENCE
 
 //Scanning modules
 /datum/design/basic_scanning
@@ -110,7 +110,7 @@
 	build_path = /obj/item/stock_parts/scanning_module/triphasic
 	category = list("Stock Parts")
 	lathe_time_factor = 0.2
-	departmental_flags = DEPARTMENTAL_FLAG_ENGINEERING | DEPARTMENTAL_FLAG_SCIENCE
+	departmental_flags = DEPARTMENTAL_FLAG_SCIENCE
 
 //Maipulators
 /datum/design/micro_mani
@@ -155,7 +155,7 @@
 	build_path = /obj/item/stock_parts/manipulator/femto
 	category = list("Stock Parts")
 	lathe_time_factor = 0.2
-	departmental_flags = DEPARTMENTAL_FLAG_ENGINEERING | DEPARTMENTAL_FLAG_SCIENCE
+	departmental_flags = DEPARTMENTAL_FLAG_SCIENCE
 
 //Micro-lasers
 /datum/design/basic_micro_laser
@@ -200,8 +200,9 @@
 	build_path = /obj/item/stock_parts/micro_laser/quadultra
 	category = list("Stock Parts")
 	lathe_time_factor = 0.2
-	departmental_flags = DEPARTMENTAL_FLAG_ENGINEERING | DEPARTMENTAL_FLAG_SCIENCE
+	departmental_flags = DEPARTMENTAL_FLAG_SCIENCE
 
+//Matter Bins
 /datum/design/basic_matter_bin
 	name = "Funnel"
 	desc = "A stock part used in the construction of various devices."
@@ -244,7 +245,7 @@
 	build_path = /obj/item/stock_parts/matter_bin/bluespace
 	category = list("Stock Parts")
 	lathe_time_factor = 0.2
-	departmental_flags = DEPARTMENTAL_FLAG_ENGINEERING | DEPARTMENTAL_FLAG_SCIENCE
+	departmental_flags = DEPARTMENTAL_FLAG_SCIENCE
 
 //T-Comms devices
 /datum/design/subspace_ansible

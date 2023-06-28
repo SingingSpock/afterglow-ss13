@@ -723,7 +723,7 @@
 	category = list("Equipment")
 	departmental_flags = DEPARTMENTAL_FLAG_ENGINEERING
 
-/datum/design/plasma_belt_tank
+/*/datum/design/plasma_belt_tank
 	name = "Plasmaman Belt Tank"
 	desc = "A small tank of plasma for plasmamen."
 	id = "plasmaman_tank_belt"
@@ -731,7 +731,7 @@
 	materials = list(/datum/material/iron = 1000)
 	build_path = /obj/item/tank/internals/plasmaman/belt/empty
 	category = list("Equipment")
-	departmental_flags = DEPARTMENTAL_FLAG_ENGINEERING
+	departmental_flags = DEPARTMENTAL_FLAG_ENGINEERING*/
 
 /datum/design/emergency_oxygen_engi
 	name = "Engineering Emergency Oxygen Tank"
